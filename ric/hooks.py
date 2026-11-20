@@ -53,6 +53,10 @@ app_license = "mit"
 
 # include js in doctype views
 # doctype_js = {"doctype" : "public/js/doctype.js"}
+doctype_js = {
+	"Purchase Order": "public/js/purchase_order.js",
+	"Sales Order": "public/js/sales_order.js",
+}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_kanban_js = {"doctype" : "public/js/doctype_kanban.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
@@ -166,6 +170,15 @@ app_license = "mit"
 # 		"on_trash": "method"
 # 	}
 # }
+
+doc_events = {
+	"Purchase Order": {
+		"autoname": "ric.overrides.purchase_order.autoname",
+	},
+	"Sales Order": {
+		"autoname": "ric.overrides.sales_order.autoname",
+	},
+}
 
 # Scheduled Tasks
 # ---------------
