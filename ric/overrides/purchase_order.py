@@ -10,7 +10,7 @@ def autoname(doc, method=None):
 	"""Name the Purchase Order from its Order Category's Purchase Order series
 
 	Without a category Frappe falls back to the standard naming series.
-	Amended POs are named from the original PO by Frappe before this runs.
+	Amended POs are named from the original PO by Frappe before this runs
 	"""
 	if not doc.get("custom_order_category"):
 		return
