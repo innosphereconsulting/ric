@@ -1,0 +1,16 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Type of Supplier",
+  "modified": "2026-11-20 16:18:43.838623",
+  "name": "Manufacturer",
+  "type_of_supplier": "Manufacturer"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Type of Supplier",
+  "modified": "2026-11-20 16:18:55.783785",
+  "name": "Trader",
+  "type_of_supplier": "Trader"
+ }
+]
