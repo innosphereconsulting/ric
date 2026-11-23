@@ -293,8 +293,5 @@ doc_events = {
 fixtures = [
 	{
 		"dt": "Type of Supplier"
-	},
-	{
-		"dt": "Naming Category"
 	}
 ]
